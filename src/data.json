@@ -1,0 +1,85 @@
+{
+  "genres": [{
+    "id": "0e41e1fd-f5e6-4a41-9a68-c920d42e8e1d",
+    "name": "Blues",
+    "description": ""
+  }, {
+    "id": "2c04bfa2-fe12-4095-91c9-b7d4f7bbca19",
+    "name": "Jazz",
+    "description": ""
+  }, {
+    "id": "a0ddd808-eb16-434d-896f-e725440500f8",
+    "name": "R&B",
+    "description": "original 40s-50s expression",
+    "birth": {
+      "year": 1940
+    }
+  }, {
+    "id": "ffcc962d-576a-4b9c-806a-063a6d50b08b",
+    "name": "Gospel",
+    "description": ""
+  }, {
+    "id": "b775adec-ea96-4ca5-9ff7-cd55051ff545",
+    "name": "Soul",
+    "description": "",
+    "birth": {
+      "year": 1961
+    }
+  }, {
+    "id": "1d9c7959-d594-4f6f-9ced-84bacfb72c0c",
+    "name": "R&B",
+    "description": "70s-style R&B",
+    "birth": {
+      "year": 1970
+    }
+  }, {
+    "id": "f4bd8081-bedb-4e5e-bb31-00e524263c6d",
+    "name": "R&B",
+    "description": "80s-style R&B",
+    "birth": {
+      "year": 1980
+    }
+  }, {
+    "id": "eb1ab36a-4c6e-4d74-9dbf-e538e5792c50",
+    "name": "R&B",
+    "description": "90s-style R&B",
+    "birth": {
+      "year": 1990
+    }
+  }, {
+    "id": "68b991e9-d2af-40a3-9a55-67907908aeee",
+    "name": "Funk",
+    "description": "original (60s) funk (James Brown etc)",
+    "birth": {
+      "year": 1964
+    }
+  }, {
+    "id": "79c05b0c-6c56-43bc-adb8-e34bfe6b6aea",
+    "name": "Funk",
+    "description": "70s P-Funk (George Clinton, Parliament)",
+    "birth": {
+      "year": 1970
+    }
+  }, {
+    "id": "57a3a0a8-2c96-4694-b776-201452f84be8",
+    "name": "Funk",
+    "description": "80s synth-funk (Rick James, Prince, Cameo, Zapp, Bar-Kays) - maybe split into 2+ subgenres",
+    "birth": {
+      "year": 1981
+    }
+  }, {
+    "id": "b64b8816-4970-4b14-a1a1-6609277af7c6",
+    "name": "Disco",
+    "description": ""
+  }],
+  "relationships": [{
+    "from": "2c04bfa2-fe12-4095-91c9-b7d4f7bbca19",
+    "to": "b775adec-ea96-4ca5-9ff7-cd55051ff545"
+  }, {
+    "from": "ffcc962d-576a-4b9c-806a-063a6d50b08b",
+    "to": "b775adec-ea96-4ca5-9ff7-cd55051ff545"
+  }, {
+    "from": "a0ddd808-eb16-434d-896f-e725440500f8",
+    "to": "b775adec-ea96-4ca5-9ff7-cd55051ff545"
+  }]
+}
